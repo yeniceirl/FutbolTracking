@@ -4,10 +4,17 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>363d9605-8ae3-45c2-b670-be29ca83aec2</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />
+    <!--<PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.7" />-->
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FutbolTracking.Application\FutbolTracking.Application.csproj" />
+    <ProjectReference Include="..\FutbolTracking.Infrastructure\FutbolTracking.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

@@ -15,6 +15,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FutbolTracking.Application\FutbolTracking.Application.csproj" />
+    <ProjectReference Include="..\FutbolTracking.Domain\FutbolTracking.Domain.csproj" />
+    <ProjectReference Include="..\FutbolTracking.Infrastructure\FutbolTracking.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Using Include="Xunit" />
   </ItemGroup>
 
